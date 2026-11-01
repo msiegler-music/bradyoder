@@ -8,3 +8,4 @@ __pycache__/
 # Local backup / tar archive history (keep repository lean)
 archive/
 *.tar
+

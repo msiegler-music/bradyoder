@@ -158,6 +158,28 @@
             gap: 8px;
             position: relative;
         }
+        #feedback-btn {
+            background: #ffffff;
+            border: 1px solid #d4d4d8;
+            border-radius: 6px;
+            padding: 5px 9px;
+            font-size: 0.8rem;
+            cursor: pointer;
+            color: #3f3f46;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            font-weight: 500;
+            line-height: 1.2;
+            transition: all 0.15s ease;
+            text-decoration: none;
+            white-space: nowrap;
+        }
+        #feedback-btn:hover {
+            background: #f4f4f5;
+            color: #0284c7;
+            border-color: #0284c7;
+        }
         /* Mobile Segmented View Mode Toggle: [ Chords | Both | Lyrics ] */
         #mobile-view-toggle {
             display: none;
@@ -749,6 +771,9 @@
                     <button type="button" class="segmented-btn active" data-mode="both" title="Show both Chords and Lyrics">Both</button>
                     <button type="button" class="segmented-btn" data-mode="lyrics" title="Show Lyrics only">Lyrics</button>
                 </div>
+                <a id="feedback-btn" href="#" title="Send corrections, notes, or chart updates" target="_blank">
+                    <span>✉ Suggest Edit</span>
+                </a>
                 <button id="settings-btn" title="Audio streaming preferences" aria-label="Settings">⚙</button>
                 <div id="settings-popover">
                     <div class="settings-popover-title">Audio Streaming</div>
@@ -794,6 +819,6 @@
     </div>
 
     <!-- Application Script -->
-    <script src="app.js?v=1.06"></script>
+    <script src="app.js?v=1.07"></script>
 </body>
 </html>

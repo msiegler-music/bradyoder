@@ -254,6 +254,12 @@ function resetToUnselectedState() {
         chartContainer.innerHTML = "<p style='color: #71717a;'>Choose a song from the playlist to view its chords/chart.</p>";
     }
 
+    // Reset feedback button
+    const feedbackBtn = document.getElementById("feedback-btn");
+    if (feedbackBtn) {
+        feedbackBtn.href = "mailto:matthew.siegler@gmail.com?subject=Brad%20Yoder%20Repertoire%20Feedback";
+    }
+
     // Reset lyrics pane
     const lyricsContainer = document.getElementById("lyrics-container");
     if (lyricsContainer) {
@@ -817,6 +823,16 @@ function selectSong(song, options = {}) {
 
     const parts = [`<span class="song-meta-title">${escapeHtml(title)}</span>`, albumHtml, dateHtml].filter(Boolean);
     titleElem.innerHTML = parts.join(" ");
+
+    // Update feedback mailto link
+    const feedbackBtn = document.getElementById("feedback-btn");
+    if (feedbackBtn) {
+        const subject = encodeURIComponent(`Brad Yoder Chart App: ${title}`);
+        const body = encodeURIComponent(
+            `Hi Matthew,\n\nNotes / edits for "${title}":\n\n- Chords / Chart:\n\n- Lyrics:\n\n- Audio / Other:\n\n(Attach any .docx or .pdf files directly to this email)`
+        );
+        feedbackBtn.href = `mailto:matthew.siegler@gmail.com?subject=${subject}&body=${body}`;
+    }
 
     // --- AUDIO PLAYER HANDLING (Always paused on selection/load) ---
     renderAudio(song);
