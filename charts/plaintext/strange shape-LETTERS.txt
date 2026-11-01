@@ -1,0 +1,41 @@
+strange shape (G, D capo 5)
+
+INTRO:							  
+2/2  ||:  G   C/G  |  G  |  G   C/G  |  G  :||
+
+CHORUS 1:          
+||  G   |  G  |  C  | G/B    | em  | G/D  |  D    |  D   /C#  |
+| B7  |   B7 |  em   | em/D  |  C  |  D ||   
+
+INTERLUDE 1:          					
+|| C     |  G/B     |  Em      |  G/D  ||
+
+VERSE 1:							  
+||  D   |  D  |  em  |  C   | G   C/G  |  G  |  G   C/G  |  G  |
+|  D   |  D  |  em  |  C   | G   C/G  |  G   |
+| B7  |   B7 |  C  |  C |  A7/C#  | A7/C#  |  dm | F  C |
+| B7  |   B7 |  C  |  C |  A7/C#  | A7/C#  |  D   | D  |  C  | C  ||
+
+INTERLUDE 2:          					
+|| C     |  G/B     |  Em      |  G/D  ||
+
+CHORUS 2:          
+||  G   |  G  |  C  | G/B    | em  | G/D  |  D    |  D   /C#  |
+| B7  |   B7 |  em   | em/D  |  C  |  D ||   
+
+VERSE 2:							  
+||  D   |  D  |  em  |  C   | G   C/G  |  G  |  G   C/G  |  G  |
+|  D   |  D  |  em  |  C   | G   C/G  |  G   |
+| B7  |   B7 |  C  |  C |  A7/C#  | A7/C#  |  dm | F  C |
+| B7  |   B7 |  C  |  C |  A7/C#  | A7/C#  |  D   | D  |  C  | C  | D   | D  |  C  | C  ||
+
+INTERLUDE 3:          					
+|| C     |  G/B     |  Em      |  G/D  ||
+
+CHORUS 3:          
+||  G   |  G  |  C  | G/B    | em  | G/D  |  D    |  D   /C#  |
+| B7  |   B7 |  em   | em/D  |  C  |  D |  Em  | Em/D  |
+
+TAG:    | B7  |   B7 |  em   | em/D  |  C  |  D ||
+
+OUTRO:    ||:  G   C/G  |  G  |  G   C/G  |  G  :||  G   ||

@@ -1,0 +1,37 @@
+convenience store  --  F# (E capo 2)                ->  or  |  = push                 brad yoder
+
+
+INTRO : ||: F#  |   B/F#  |  d#m/F#   |   B/F# :||
+
+VERSE 1                                            
+||: F#   |  B    |  d#m   | C#sus   (F#/C#) :|| 
+
+CHORUS 1			 
+||  B  |  C#  |  d#m  |  d#m  ->G# / /  |  B  |  C#   || 
+
+VERSE 2                                            
+|| F#   |  B    |  d#m   | C#sus   (F#/C#) |F#   |  B    |  d#m   | C#sus   (F#/C#) | 
+
+CHORUS 2			 
+||  B  |  C#  |  d#m  |  d#m  ->G# / /  |  B  |  C#   ||
+
+BRIDGE 1
+||  B   |  C#  |  B  |  C#  |  g#msus   |  C#sus   |  d#m  |  E  B  ||
+
+INTRO 2  (or no repeat?)
+||: F#  |   B/F#  |  d#m/F#   |   B/F# :||
+
+VERSE 3                                            
+||: F#   |  B    |  d#m   | C#sus   (F#/C#) :|| 
+
+BRIDGE 2
+||  B   |  C#  |  B  |  C#  |  g#msus   |  C#sus   |  d#m  |  E   ||
+
+CHORUS 3			 
+||  B  |  C#  |  d#m  |  d#m  ->G# / /  |  B  |  C#   |
+
+CHORUS 4			 
+|  B  |  C#  |  d#m  |  d#m  ->G# / /  |  B  |  C#   ||
+
+
+INTRO 3:  ||: F#  |   B/F#  |  d#m/F#   |   B/F# :||  F#  ||

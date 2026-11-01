@@ -1,0 +1,41 @@
+One Perfect Day  -- brad yoder (D, capo 5 =G) 
+INTRO 
+2/2 || D    | am7    |  C     | G  /  /  A | D      | am7     | C     | G A / /  | 
+6/8 | D     | A      |  bm     | G     2/2 | D      | am7     | C      | G A / / || 
+ 
+VERSE 1                                                                (020230) 
+|| D      | A        | bm        | G           | D     | A      | bm/E     | G     | 
+ | D      | am7     | C          | G  /  /  A | D    | A      | bm/E    | G      | | 
+ 
+VERSE 1 TAG 
+ | G/B      | A/C#      | D  /  /  G | G  /  /  /F# | Em      | C      || 
+ 
+INTRO 2 
+|| D    | am     |  C         | G  /  /  A | D      | am      | C       | C A / /  | 
+ 
+VERSE 2 
+|| D      | A        | bm       | C           | D      | A     | bm/E     | C        | 
+ | D      | am      | C         | C  /  /  A | D      | A     | bm/E     | C        || 
+ 
+CHORUS 1 
+|| C      | G      | am       | F           | C      | G     | am     | F           | 
+ | C      | gm    | Bb          | F    G     | C      | G     | am     | F    G     || 
+ 
+INTRO 3 (like INTRO 1) 
+2/2 || D    | am7    |  C     | G  /  /  A | D      | am7     | C     | G A / /  | 
+6/8 | D     | A      |  bm     | G     2/2 | D      | am7     | C      | G A / / || 
+ 
+VERSE 3                                                                (020230) 
+|| D      | A        | bm        | G           | D     | A      | bm/E     | G     | 
+ | D      | am7     | C          | G  /  /  A | D    | A      | bm/E    | G      | | 
+ 
+CHORUS 2 
+|| E      | B     | C#m         | A       | E       | B        | C#m     | A         | 
+ | E      | bm   | Dmaj7    | A    B    | E      | B        | C#m     | A         || 
+ 
+OUTRO 
+|| E    | B    | C#m         | A       | D       | A       | bm/E      | G           | 
+ | C    | G     | am         | F   G    | D      | A       | bm/E      | G           | 
+ 
+TAG 
+| G/B    | A/C#    | D  /  /  G | G  /  /  /F# | Em  | C   | D   || 

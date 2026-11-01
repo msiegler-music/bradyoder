@@ -1,0 +1,74 @@
+Used --   (G, or C capo 7)           “CONCERT” CHORDS (key of G) 
+ 
+INTRO 1  2/2  ||: Em  |  G  |  C maj7   |  F    B7  :||  
+ 
+VERSE  1                
+||: Em     | Em/D#   / /   Em/D   |  Em/C#    | Em/C  /  /  Em/B  |    
+   |   Bb add9maj7    |  Fadd9   | Am  Am/G  |  D/F#    B7  :||  
+ 
+INTRO 2:   ||  Em  |  G  |  C maj7   |  F    B7  ||  
+ 
+VERSE  2                
+||: Em     | Em/D#   / /   Em/D   |  Em/C#    | Em/C  /  /  Em/B  |      
+                                                                1._________    2._________ 
+   |   Bb add9maj7    |  Fadd9   | Am    Am/G   |  D/F#    B7  :||  D/F#    D   || 
+ 
+CHORUS  1         
+||   G    |   G/F#   |   C/E    |   /D     |  C   |   G/B  |   D  ( /E   |  D/F#    D )  | 
+  |    G    |   G/F#   |  C  ( C/D    |  C/E   /F# )  | Em    |  Em/D   | Em/C#  |  F   B7  || 
+ 
+INTRO 3:  ||: Em  |  G  |  C maj7   |  F    B7  :||              
+VERSE  3                
+||: Em     | Em/D#   / /   Em/D   |  Em/C#    | Em/C  /  /  Em/B  |      
+                                                          1._________    2._________ 
+   |   Bb add9maj7    |  Fadd9   | Am    Am/G   |  D/F#    B7  :||  D/F#    D   || 
+ 
+CHORUS  2         
+||   G    |   G/F#   |   C/E    |    /D      |  C   |   G/B  |   D  ( /E   |  D/F#    D )  | 
+  |    G    |   G/F#    |  C  ( C/D    |  C/E   /F# )  | Em    |  Em/D   | Em/C#  | C   D || 
+ 
+CHORUS  3         
+||   G    |   G/F#   |   C/E    |   /D     |  C   |   G/B  |   D  ( /E   |  D/F#    D )  | 
+                                                                    TAG 
+ |  G   |   G/F#   | C  ( C/D    |  C/E   /F# ) ||: Em  |  Em/D   | Em/C#  |  Em /C  Em/B :|| 
+ 
+ |  Em   | Em/G#  /  /  Em/G |   Em/C#      |  F    E7    || 
+OUTRO:   ||:  Em  |  G  |  C maj7   |  F    B7  :||   Eadd9   || 
+Used --   (G, or C capo 7)           GUITAR CHORDS (key of C) 
+ 
+INTRO 1  2/2  ||: Am  |  C  |  F   |  Bb    E7  :||  
+ 
+VERSE  1                
+||: Am     | Am/G#   / /   Am/G   |  Am/F#    | Am/F  /  /  Am/E  |    
+   |   Eb add9maj7    |  Bbadd9   | Dm  Dm/C  |  G/B    E7  :||  
+ 
+INTRO 2:   ||  Am  |  C  |  F   |  Bb    E7   ||  
+ 
+VERSE  2                
+||: Am     | Am/G#   / /   Am/G   |  Am/F#    | Am/F  /  /  Am/E  |    
+                                                          1._________    2._________ 
+   |   Eb add9maj7    |  Bbadd9   | Dm  Dm/C  |  G/B    E7   :||  G/B    G   || 
+ 
+CHORUS  1         
+||   C    |   C/B   |   F/A    |     /G    |  F   |   C/E  |   G  ( /A   |  G/B    G )  | 
+  |    C    |   C/B    |  F  ( F/G    |  F/A   /B )  | Am    |  Am/G   | Am/F#  |  Bb   E7  || 
+ 
+INTRO 3:  ||: Am  |  C  |  F   |  Bb    E7  :||              
+VERSE  3                
+||: Am7     | Am/G#   / /   Am/G   |  Am/F#    | Am/F  /  /  Am/E  |    
+                                                          1._________    2._________ 
+   |   Eb add9maj7    |  Bbadd9   | Dm  Dm/C  |  G/B    E7   :||  G/B    G   || 
+ 
+CHORUS  2         
+||   C    |   C/B   |   F/A    |     /G    |  F   |   C/E  |   G  ( /A   |  G/B    G )  | 
+  |     C    |   C/B    |  F  ( F/G    |  F/A   /B )  | Am    |  Am/G   | Am/F#  |  F   G || 
+ 
+CHORUS  3         
+||   C    |   C/B   |   F/A    |   /G    |  F   |   C/E  |   G  ( /A   |  G/B    G )  | 
+                                                                    TAG 
+ |   C    |   C/B    |  F  ( F/G    |  F/A   /B )  ||: Am  |  Am/G   | Am/F#  |  Am /F  Am/E :||  
+ 
+ |  Am   | Am/G#  /  /  Am/G  |  Am/F#      |  Bb    E7    || 
+ 
+OUTRO:   ||:  Am  |  C  |  F   |  Bb    E7   :||   Aadd9   || 
+ 

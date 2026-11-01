@@ -1,0 +1,45 @@
+Breezewood  (A/C, E/G capo 5)   (brad yoder, 6/25)     
+                          022100   002120 
+INTRO:     2/2   ||: E   |  Amaj7  :|| 
+ 
+VERSE 1:                               (002200) 
+    022100   2x2120   3x0200       002220   202200 332010    554030 
+||  E  /  | E   /F#     | G      | G  | A      | F#m   | C  /   | C  D(add11)   ||  
+                            3/2        2/2 
+    022100    2x2120   3x0200    002220   202200 332010  x42220 
+|   E     |  E   -/F#    | G   | G   | A       | F#m  | C    C  A7/C#  || 
+ 
+CHORUS 1:                          (x3301x) 
+  554030     022030  332010   3x000x  x3321x  002210 
+|| D(add11)  |  Em7    | C  |C  |  G         |  F      |  am     || 
+|| D(add11)  |  Em7 | C  |C  |  G |  F | am | am || 
+ 
+INTRO 2:      ||: E   |  Amaj7  :|| 
+ 
+VERSE 2:            
+||  E  /  | E   /F#  | G  | G  | A  |  F#m | C  / | C  D ||  
+                            3/2        2/2 
+|   E   |  E   -/F#  | G | G   | A  | F#m  | C  C  A7/C#  || 
+ 
+CHORUS 2: 
+|| D(add11)  |  Em7 | C  |C  |  G |  F | am || 
+|| D(add11)  |  Em7 | C  |C  |  G |  F | am | am || 
+ 
+BRIDGE: 
+(xx1202) (022000) 
+xx120x    xx2000  x03010    200210  3x033x 1x033x   xx1331  x3133x  x0103x 
+|| B7/D#  | Em  | Fadd9/A  | D7/F# | Gm  |  Gm/Fb | Ebmaj7  | Cm    | Amb5o || 
+ 
+INTRO 3:      ||: E   |  Amaj7  :|| 
+ 
+VERSE 3:            
+||  E  /  | E   /F#  | G  | G  | A  |  F#m | C  / | C  D ||  
+                            3/2        2/2 
+|   E   |  E   -/F#  | G | G   | A  | F#m  | C  C  A7/C#  || 
+ 
+CHORUS 3: 
+|| D(add11) |  Em7 | C  |C  |  G | F | am || D(add11)  |  Em7 | C  |C  |G |  F | am ||   
+ 
+|| || D(add11)  |  Em7 | C  |C  |  G |  F ||: am |am :|| 
+                      x3 
+OUTRO :      ||: E   |  Amaj7  :||  E   || 

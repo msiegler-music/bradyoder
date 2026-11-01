@@ -1,0 +1,45 @@
+Skyler  --  C (G capo 5) brad yoder
+
+VOICE INTRO (VERSE 1):     4/4 ||  [--8--]   ||
+
+BRIDGE 1
+|| am      | F        | am         | F       | am      | F      | Dsus       | F        | F    |
+
+VERSE 1 cont.
+| C   F  | F   G   | Eb   Ab  | gm   F  | 
+ |C   F  | F    G  | Eb   Ab  | Ab  gm   F| F  gm   F| F      ||
+
+CHORUS 1
+| C   /B  am| am     | Bb     | F   G  | C   /B  am| am     |  F   G  |
+
+INTERLUDE 2
+| C   F  | F   G   | Eb   Ab   2/4| gm   F|4/4 C    F| F     ||
+
+VERSE 2
+| C   F  | F   G   | Eb   Ab  | gm   F  | C   F  | F    G  | Eb   Ab  |  gm  F  ||
+
+BRIDGE 2
+|| am      | F        | am         | F       | am      | F      | Dsus       | F        | F    |
+
+VERSE 2 cont.
+|C   F  | F    G  | Eb   Ab  2/4| Ab  4/4|gm   F | gm    F   ||
+
+CHORUS 2
+| C   /B  am| am     | Bb     | F   G  | C   /B  am| am     |  F   G  |
+
+INTERLUDE 3
+|C  F | F  G | Eb  Ab  | Ab / F G |C  F | F  G | Eb  Ab  |
+2/4| gm   F|4/4 C   F| F  C   F| F ||
+
+VERSE 3
+||: C  F  | F  G  | Eb   Ab 2/4| Ab  4/4|gm  F | gm  F :||
+
+BRIDGE 3
+|| am    | F    | am  | F     | am      | F      | Dsus       | F        | F    |
+
+CHORUS 2
+| C   /B  am| am     | Bb     | F   G  | C   /B  am| am   |
+| F  |G  |  F  |  G  | F  /E| dm Bb||
+
+OUTRO 4
+|C  F | F  G | Eb  Ab  | Ab / F G |C  F | F  G | Eb  Ab  2/4| gm   F|4/4 C    ||

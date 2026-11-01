@@ -1,0 +1,25 @@
+few and far between -- brad yoder  (E=C capo 4)
+
+4/4
+INTRO: 
+|| E  |  g#m | E  |  g#m  | A  | B | c#m9-5 | c#m9-5 ||
+
+VERSE 1:
+||: E  |  g#m | E  |  g#m  | A  | B | c#m |  /D#  :||
+
+CHORUS 1:
+|| B | g#m  |  A | F#sus  | B | g#m  |  A   I  B  ||
+
+INTRO 2: 
+|| E  |  g#m | E  |  g#m  | A  | B | c#m9-5 | c#m9-5 ||
+
+VERSE 2:
+|| E  |  g#m | E  |  g#m  | A  | B | c#m |  /D#  |
+  | A  |  B  | A  |  B  | c#m  | g#m | A   |  B    ||
+
+CHORUS 2:
+|| A | B     |  c#m |    /D#    | B | g#m  |  A   I  F#sus  |
+|   B | g#m  |  A    | F#sus  |  B  |  A   ||
+
+OUTRO: 
+||:  E  |  g#m | A  | B  :||  E  ||

@@ -1,0 +1,33 @@
+virtual girl  --  G, open             brad yoder
+				 	    		     
+2/2   INTRO :   || G  | D  |  F  | C |  Em  | A   Bb  ||
+
+VERSE 1      		         1._______   2.___________          
+||: G  | D  |  F  | C |  Em  | A   Bb   :|| C(maj7)    |
+
+CHORUS 1			 
+|| am  | B7  |  Cmaj7  |  A/C#  A ||  E  C |  D  C |
+
+VERSE 2      		          1._______   2.__________	
+||: G  | D  |  F  | C |  Em  | A   Bb   :|| C(maj7)    |
+
+CHORUS 1			 
+|| am  | B7  |  Cmaj7  |  A/C#  A ||  E  C  |
+
+BRIDGE  
+||: D / C G  | D / C G  | Am Em  | Am  /  F C  :||
+
+INTRO
+|| G  | D  |  F  | C |  Em  | A   Bb  ||
+
+CHORUS 3			 
+|| am  | B7  |  Cmaj7  |  A/C#  A ||  E  C |  D  C / /  |
+
+VERSE 3      		         1._______   2.____________
+||: G  | D  |  F  | C |  Em  | A   Bb   :|| C(maj7)      |
+
+CHORUS 4		                              (x3)		        (x3)                       
+||: am  | B7  |  Cmaj7  |  A/C#  A :||: E  C |  D  C :||
+
+INTRO		    (x3)
+||: G  | D  |  F  | C   :||  Em   |  A    Bb  |   G   ||

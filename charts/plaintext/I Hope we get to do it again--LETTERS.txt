@@ -1,0 +1,15 @@
+I hope we get to do it again -- brad yoder  (E=C, capo 4 )
+
+4/4
+VS1:  ||E   |  /D#|  D  |  F#7  |  A  |  B  |  C#m  |  B/D#  |
+          ||E   |  /D#|  D  |  F#7  |  A  |  B  |  E      ||
+
+CH1:  ||  A  |  B  |  C#m|  A  |  B|  E  | 
+             | A  | B  | C#m |  C#m  /D#  | A    ||
+INSTR:  ||E   |  /D#|  D  |  F#7  |  A  |  B  |  C#m  |  B/D#  |
+              ||E   |  /D#|  D  |  F#7  |  A  |  B  |  E      ||
+
+(bigger) CH2:  ||  A  |  B  |  C#m|  A  |  B|  E  | 
+                          | A  | B  | C#m |  C#m  /D#  | A    ||
+
+VS1 TAG:  ||E   |  /D#|  D  |  F#7  |  A  |  B  |  E      ||

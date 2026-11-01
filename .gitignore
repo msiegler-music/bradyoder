@@ -1,0 +1,10 @@
+# OS / Editor artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+__pycache__/
+*.pyc
+
+# Local backup / tar archive history (keep repository lean)
+archive/
+*.tar

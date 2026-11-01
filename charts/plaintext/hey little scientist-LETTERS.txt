@@ -1,0 +1,31 @@
+hey little scientist -- brad yoder  (f#m/A)                          
+
+INTRO:                                  
+4/4 ||: f#m    |  f#m  /E#  | f#m    |  f#m  /E#    :||  
+
+VERSE 1:		                                                                         
+||f#m | /E#  /E |  D   E |  D/F#  C  | f#m | /E#  /E | D  E | D/F#  E/G#   ||   
+
+CH 1:                       
+|| D | G | bm   A  |E |D  | bm  G  | f#m  /E | D  |  E | D/F# | D/F#  C  / /  ||   
+ 
+VERSE 2:		                                                                         
+||f#m | /E#  /E |  D   E |  D/F#  C  | f#m | /E#  /E | D  E | D/F#  E/G#   ||   
+
+CH 2:                       
+|| D | G | bm   A  |E |D  | bm  G  | f#m  /E | D  |  E | D/F# | D/F#  C  / /  ||   
+ 
+ 
+BRIDGE:                                  
+|| bm| A/C# | D | D#0 | bm| A/C# | D | E  C#7/E# | 
+| f#m  | f#m/E  | B/D# | B7 || E  | D/F# |  G | G  C / / ||  
+
+VERSE 3:		                                                                         
+||f#m | /E#  /E |  D   E |  D/F#  C  | f#m | /E#  /E | D  E | D/F#  E/G#   ||   
+
+CH 3:                                                                 6/4                  4/4                                              
+|| D | G |   A  |E |D  | bm  G  | f#m  /E | Dmaj7 F maj7 | F maj7   / / / / /  ||
+ 
+OUTRO (VS):  	                                                                          
+||:f#m | /E#  /E | D   E | D/F#  C  :|| f#m | /E#  /E | D  E | D/F# E/G#| A ||   
+

@@ -1,0 +1,30 @@
+headlights -- brad yoder  (F=C capo 5)
+
+4/4
+VERSE 1:
+|| 6m  |  3m |  4  |  1    /   /   /7  | 6m  | 3m | 4 |  2sus7  |
+  |5       | 3m   | 4   |  2   |                  (last bar could be ¾?) 
+
+VERSE 2:
+|| 6m  |  3m |  4  |  1    /   /   /7  | 6m  | 3m | 4 |  2sus7  |
+  |5       | 3m   | 4   |  2sus   | 6m  | 4   5  |
+
+CHORUS 1:
+|| 1 | /7  |  6m | 4  | 5 | 3m  |  4   I  2  |
+|| 1 | /7  |  6m | 4  | 5 | 37    |  4   I  2sus7  ||
+
+INSTR 1:   || 6m  |  3m |  4  |  1   || 
+
+VERSE 3:
+|| 6m  |  3m |  4  |  1    /   /   /7  | 6m  | 3m | 4 |  2sus7  |
+  |5       | 3m   | 4   |  2sus   | 6m  | 4   5  |  6m  |  4  5  ||
+
+CHORUS 2:
+|| 1 | /7  |  6m | 4  | 5 | 3m  |  4   I  2  |
+|| 1 | /7  |  6m | 4  | 5 | 37    |  4   I  2sus7  ||
+
+INSTR 2:   || 1 | /7  |  6m | 4  ||
+
+TAG:
+ ||5       | 3m   | 4   |  2sus   | 6m  | 4   5  |  6m  |  4  5  |
+   | 6m  | 4   5   ||  1  ||  

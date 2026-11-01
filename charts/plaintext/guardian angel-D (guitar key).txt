@@ -1,0 +1,33 @@
+guardian angel  --  F or F#  (D, capo 3-4)             					brad yoder
+
+VERSE 1                                                     						      
+4/4 || D  D/F# | G  Asus | D  F#7add11 | G  Asus |
+          | bm  /  /  bm/A  | G    D/F#   | Esus  | Asus G  ||
+
+VERSE 2 
+||D      D/F#     | G  Asus | D     F#7add11| G  Asus           |
+| bm  /  /  bm/A  | G  D/F#  | Esus           | Asus    Dmaj7/F# ||
+
+CHORUS 1			 
+|| G  Asus | D   /   D/C#  (D/F#) | G  Asus    | D   /   D/C#  (D/F#) |
+|  G  Asus | bm  F#7/A# | E7/G#   G |  Asus  G  ||
+
+INSTRUMENTAL  (VERSE MATERIAL)
+|| D     D/F#         | G    Asus   | D  F#7add11           | G  Asus |
+| bm  /  /  bm/A  | G   D/F#   | Esus  Dmaj7/F# ||
+
+CHORUS 2 
+|| G  Asus | D   /   D/C#  (D/F#) | G  Asus     | D   /   D/C#  (D/F#) |
+ |  G  Asus  | bm  F#7/A# | E7/G#   G |  Asus  G  ||
+
+VERSE 1 (REPRISE)
+|| D  D/F# | G  Asus | D   ||
+
+CHORDS :
+D		xx0232			Esus		02223(0)
+D/F#         2x023(0)			Dmaj7/F#	2x0220
+G		3x003(0)			D/C#		x4x230 to    D/F#	24x230
+Asus		x0223(0)			F#7/A#	x1x32(0)
+F#7add11	24230(0)  half-barre	E7/G#	4x0400  (I use this chord a lot)
+bm		x2023(0)
+bm/A  	x0023(0)  (could also be considered D/A)

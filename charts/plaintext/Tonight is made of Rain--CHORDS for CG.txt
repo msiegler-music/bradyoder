@@ -1,0 +1,43 @@
+tonight is made of rain -- brad yoder  (dm/F=C, capo 5 )
+
+3/4  INTRO:  || C   |  C  ||
+                               x32010
+VERSE 1:  (I’m mostly playing the 2-3-4 strings w/fingers, not much high E, plus bass with thumb)                        
+|| C    |  /B   |  Am7  |  C7/G    | D7/F#  |  D7/F#  | F     | E  / (E7)|
+ x32010 x20010  x02010   3x2310    200210              100310  022100->020100
+
+| C    |  G      |  F     |  Dmsus579 |  F    |  G     | Am7   | Am7  /  /B   ||
+x32010 320010  x33010    x00210    x33010 32000x  x02010     /   /  x200xx 
+
+VERSE 2:   (same as VS1, but ends a bit differently)                                              
+|| C    |  /B |  Am7  |  C7/G          | D7/F#   |  D7/F#   | F     | E7      |
+   | C   |  G    |  F     |  Dmsus579 |  F   |  G     | C      | C    /D    /E     ||
+                                 x33210 32001x x32010   /  x30010 x32010
+CHORUS 1:  
+|| F     |  F     |  G     |  G    |   Am  |  Am/G   | D/F#    |  Dsus     |
+x33210  x33010  3x000x          002210  3x2210     200230    x00210
+|   Gm11    |  Gm11  |  F/A     |  F/A   |   C     |  Bb    |  A7   |  A7  |
+  3x031x     3x031x   x03010    x03010  332010   110010  002020 0020x0
+|   F     |  F    |  G    |  G    ||
+x33210  x33010 32001x          
+
+INSTRUMENTAL:  (playing the melody, or trying!)
+|| C    |  /B   |  Am7  |  C7/G    | D7/F#  |  D7/F#  | F     | E7        |
+x32010 x20013  x0203x  3x231x     	20021x          	100310  022100->020100
+x32011 x20011                   	               
+x32013 x20010         
+| C    |  G      |  F     |  Dmsus579 |  F    |  G     ||
+
+VERSE 3:   (like VS 2)                        
+|| C    |  /B |  Am7  |  C7/G          | D7/F#   |  D7/F#   | F     | E7      |
+   | C   |  G    |  F     |  Dmsus579 |  F   |  G     | C      | C    /D    /E     ||
+
+CHORUS 2:  
+|| F   |  F   |  G   |  G   /  E7/G#  | Am  |  Am/G   | D7/F#   |  D7/F#   |
+|   Gm11    |  Gm11  |  F/A     |  F/A   |   C     |  Bb    |  A7   |  A7  |
+|   F     |  F    |  G    |  G    |  F/A     |  F/A   |   G/B     |  G/B     ||
+
+VERSE 1b:                         
+|| C    |  /B |  Am7  |  C7/G          | D7/F#   |  D7/F#   | F     | E7      |
+   | C   |  G    |  F     |  Dmsus579 |  F   |  G     | Am    | C7/G       |
+   | D7/F#   |  G    |   C    |   C    ||

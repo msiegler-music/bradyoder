@@ -1,0 +1,30 @@
+horses -- brad yoder  (G, open)
+
+2/2  INTRO:                                                     
+||:G|gm/Bb Bb-C|Asus  A-B|C  C-D|G/B G|G/D D-E|A/#C A|C F:||
+
+VERSE 1 & 2:                                    
+||:G  |  gm/Bb |  Asus  A-B | C   | G/B  | gm/Bb | Asus C | F  F/A |
+
+  |G  |  gm/Bb |  Asus  | Cadd9  | C/E  | F  /F# |G  | G  :||
+
+CHORUS 1: 
+|| em|D/F#|Cadd9| C | D | D | G | G | G| gm/Bb | Asus|F | C/E | F /F# ||   
+
+INTRO:                                                             
+||:G|gm/Bb Bb-C|Asus  A-B|C  C-D|G/B G|G/D D-E|A/#C A|C F:||
+
+VERSE 3:                                           
+|| G  |  gm/Bb |  Asus  A-B | Cadd9  G/B | gm/Bb | Asus C | F F/A |
+
+  |G  |  gm/Bb |  Asus  | Cadd9  | C/E  | F  /F# |G  | G   ||
+
+CHORUS 2 & 3: 
+||: em | D/F# | Cadd9| C | D|D|G|G |
+|G | gm/Bb | Asus| F|C/E | F /F# |G|G:||
+
+TAG:  || G | gm/Bb | Asus| F|C/E | F   /F# ||
+
+OUTRO: (x?)                                                    
+||:G |gm/Bb Bb-C|Asus A-B|C C-D|G/B G|G/D D-E |A/#C A|C F:||
+ | G ||

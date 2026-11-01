@@ -1,0 +1,22 @@
+soft voice (jokes bombed -- brad yoder  (G open )
+
+4/4
+INTRO: ||G   |  C/G |G   | C/G||
+VS1:  ||Em   |  /D |  C  |  C  |  G  |  G/B  |  F  |  D  |
+          |  Am   |  (G)/B|  C  |  Asus7  |  G  |  D  |  C    |C      ||
+
+VS2:  ||Em   |  /D |  C  |  Asus7  |  G  |  G/B  |  F  |  D  |
+          |  Am   |  (G)/B|  C  |  A7/C# |  G  |  D  |  C    ||(dropped bar)
+
+CH:  ||Am   |  D   |B7   |  Em  |  C  |  G/B  |  Am  |  Am  |
+      ||C    |  D    |  B7  |  Em  Em/D  |  C  |  G/B  | Asus7 | Asus7 ||
+
+INSTR. VS:  ||Em   |  /D |  C  |  Asus7  |  G  |  G/B  |  F  |  D  |
+          |  Am   |  (G)/B|  C  |  Asus7  |  G  |  D  |  C    ||(dropped bar)
+
+VS3:  ||Em   |  /D |  C  |  Asus7  |  G  |  G/B  |  F  |  D  |
+          |  Am   |  (G)/B|  C  |  A7/C#  |  G  |  D  |  C    ||(dropped bar)
+
+CH:  ||Am   |  D   |B7   |  Em  |  C  |  G/B  |  Am  |  Am  |
+    ||C   |  D|  B7  |  Em  Em/D  |  C  |  G/B  |  Aadd9 |Aadd9  G/B||
+    ||C   |  D||G C/G G  / ||  

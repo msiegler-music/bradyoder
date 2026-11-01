@@ -1,0 +1,25 @@
+adjusting to the darkness -- brad yoder  (E=D, capo 2 )
+
+       3/4                     1._____2._____
+INTRO:  ||:E   |  Amaj7/E |  A/C#  |  D  :|| B7sus  ||
+VS1:  ||  A  |  E/G#  |  F#m|  D  |  C#m|  E/B  | 
+             | A  | A  | B |  B7  | E  |  E7/G#  |
+            |  A  |  E/G#  |  F#m|  D  |  C#m|  E/B  | 
+             | A  | A  | B |  B7  | E  |  Amaj7/E  |E   |  E7/G# ||
+
+VS2:  ||  A  |  E/G#  |  F#m|  D  |  C#m|  E/B  | 
+             | A  | A  | B |  B7  | E  |  E7/G#  |
+            |  A  |  E/G#  |  F#m|  D  |  C#m|  E/B  | 
+             | A  | A  | B |  B7  | E  |  E7/G# ||
+
+INSTR. VS:   ||  A  |  E/G#  |  F#m|  D  |  C#m|  E/B  | 
+              | A  | A  | B |  B7  | E  |  E7/G#  |
+             |  A  |  E/G#  |  F#m|  D  |  C#m|  E/B  | 
+             | A  | A  | B |  B  ||
+
+VS3:  ||  A  |  E/G#  |  F#m|  D  |  C#m|  E/B  | 
+             | A  | A  | B |  B7  | E  |  E7/G#  |
+            |  A  |  E/G#  |  F#m|  D  |  C#m|  E/B  | 
+             | A  | A  | B |  B7  | E  |  E7/G# ||
+TAG:    ||  A  |  /G#  |  F#m|  D  |  C#m|  /B  |
+             | A  | A  | B |  B7  || E  |  Amaj7/E  ||  E   ||

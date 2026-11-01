@@ -1,0 +1,22 @@
+TWO CITIES   C#m/E  (Am/C, capo 4)
+INTRO:
+2/2 || C#m   | C#m  ||
+CH:
+2/2 || C#  / | /D#  A  | E   |  B    | F#m  E/G# | A  / | F#m  E/G#  1/2 | F#/A# ||2/2
+VS 1a:
+2/2 || C#m / | A / | E  / |  F#m  | E/G# | A  / |B  /  | A / ||
+VS 1b:
+|| C#m / | A / | E  / | F#m |E/G# | A  / |B  / | A / | B  |C# / | F#m |E/G# | F#/A#  ||
+CH 2:
+2/2 || C#m  / | /D#  A  | E   |  B    | F#m  E/G# | A  / | F#m  E/G# | F#/A#  ||
+VS 2:
+|| C#m  | A  | E   |  F#m | E/G# | A  / |B  /  | A / | E  |B | A  |E |
+| F#m  E/G# | A  / | F#m  E/G# | F#/A#  | C#m  | /B  |B  ||
+CH 3:
+|| C#m  / | /D#  (A)  | E   | B    | F#m  E/G# | A  / | F#m  E/G# | F#/A#  ||
+BRIDGE:  || A  |B  |E  |E  | C#m  |B |A |B |C#m | E  |E  |B  ||
+VS 3:
+|| C#m / | A / | E  / | F#m |E/G# | A  / |B  /  | A / | B  |C# / | F#m | E/G#|F#/A#   ||
+CH 4-5:
+||  C#m  / | /D#  A  | E   | B    | F#m  E/G# | A  / | F#m  E/G# 1/2 | F#/A#  ||2/2  
+||  C#m  / | /D#  A  | E   | B    | F#m  E/G# | A  / | F#m  E/G# | F#/A#   || E ||
