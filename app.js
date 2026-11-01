@@ -91,57 +91,49 @@ function setupSidebarToggle() {
     });
 }
 
-// Setup Mobile Rotating View Mode Toggle: [ Both -> Chords -> Lyrics -> Both ]
-function setupMobileViewToggle() {
-    const toggleBtn = document.getElementById("mobile-view-toggle");
-    const labelElem = document.getElementById("mobile-view-label");
-    if (!toggleBtn) return;
-
+let currentMobilePaneMode = "both";
+function setMobilePaneMode(mode) {
     const modes = ["both", "chart", "lyrics"];
     const modeLabels = {
         "both": "Both",
         "chart": "Chords",
         "lyrics": "Lyrics"
     };
+    if (!modes.includes(mode)) mode = "both";
+    currentMobilePaneMode = mode;
 
-    let currentMode = "both";
-
-    function setMode(mode) {
-        currentMode = mode;
-        document.body.classList.remove("mobile-mode-chart", "mobile-mode-lyrics");
-        if (mode === "chart") {
-            document.body.classList.add("mobile-mode-chart");
-        } else if (mode === "lyrics") {
-            document.body.classList.add("mobile-mode-lyrics");
-        }
-
-        if (labelElem) {
-            labelElem.innerText = modeLabels[mode] || "Both";
-        }
-        toggleBtn.title = `Current: ${modeLabels[mode]} (Tap to rotate view)`;
-
-        try {
-            localStorage.setItem("by_mobile_pane_mode", mode);
-        } catch (e) {}
+    document.body.classList.remove("mobile-mode-chart", "mobile-mode-lyrics");
+    if (mode === "chart") {
+        document.body.classList.add("mobile-mode-chart");
+    } else if (mode === "lyrics") {
+        document.body.classList.add("mobile-mode-lyrics");
     }
+
+    const labelElem = document.getElementById("mobile-view-label");
+    const toggleBtn = document.getElementById("mobile-view-toggle");
+    if (labelElem) {
+        labelElem.innerText = modeLabels[mode] || "Both";
+    }
+    if (toggleBtn) {
+        toggleBtn.title = `Current: ${modeLabels[mode]} (Tap to rotate view)`;
+    }
+}
+
+// Setup Mobile Rotating View Mode Toggle: [ Both -> Chords -> Lyrics -> Both ]
+function setupMobileViewToggle() {
+    const toggleBtn = document.getElementById("mobile-view-toggle");
+    if (!toggleBtn) return;
+
+    const modes = ["both", "chart", "lyrics"];
 
     toggleBtn.onclick = (e) => {
         e.stopPropagation();
-        const nextIdx = (modes.indexOf(currentMode) + 1) % modes.length;
-        setMode(modes[nextIdx]);
+        const nextIdx = (modes.indexOf(currentMobilePaneMode) + 1) % modes.length;
+        setMobilePaneMode(modes[nextIdx]);
     };
 
-    // Restore saved mode preference (default: "both")
-    try {
-        const savedMode = localStorage.getItem("by_mobile_pane_mode") || "both";
-        if (modes.includes(savedMode)) {
-            setMode(savedMode);
-        } else {
-            setMode("both");
-        }
-    } catch (e) {
-        setMode("both");
-    }
+    // Initialize to "both"
+    setMobilePaneMode("both");
 }
 
 // Setup Settings popover and radio listeners
@@ -827,6 +819,9 @@ function selectSong(song, options = {}) {
     updateActiveSongHighlight();
     const requestedChartIndex = typeof options.chartIndex === "number" ? options.chartIndex : 0;
     currentChartIndex = requestedChartIndex;
+
+    // Reset mobile view mode back to Both on every song selection
+    setMobilePaneMode("both");
 
     const title = toTitleCase(song.title || song.song_title || song.canonical_title || "Untitled");
     const dateStr = (song.composition_date || "").trim();
