@@ -175,8 +175,8 @@
             text-decoration: none;
             white-space: nowrap;
         }
-        .env-badge-dev {
-            display: inline-flex;
+        #env-badge.env-badge-dev {
+            display: inline-flex !important;
             align-items: center;
             background: #ffedd5;
             color: #c2410c;
@@ -782,7 +782,7 @@
                     <span class="toggle-icon">☰</span>
                 </button>
                 <h1 id="active-song-title">Select a song</h1>
-                <span class="env-badge-dev" title="Development Build">DEV</span>
+                <span id="env-badge" style="display: none;" title="Development Build">DEV</span>
             </div>
             <div class="header-right">
                 <!-- Mobile/Tablet View Toggle (Chords / Both / Lyrics) -->
@@ -839,6 +839,6 @@
     </div>
 
     <!-- Application Script -->
-    <script src="app.js?v=1.07"></script>
+    <script src="app.js?v=1.08"></script>
 </body>
 </html>

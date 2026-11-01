@@ -440,6 +440,16 @@ async function initApp() {
         setupSidebarToggle();
         setupMobileViewToggle();
         
+        // Environment Badge detection (shows DEV badge only if on dev origin/hostname/path)
+        const isDevEnv = window.location.hostname === "localhost" || 
+                         window.location.hostname === "127.0.0.1" || 
+                         window.location.pathname.includes("bradyoder-dev") ||
+                         window.location.hostname.includes("lhr.life");
+        const envBadge = document.getElementById("env-badge");
+        if (envBadge && isDevEnv) {
+            envBadge.classList.add("env-badge-dev");
+        }
+
         // Restore initial view-state from URL query params
         restoreViewStateFromUrl({ replaceUrl: true });
     } catch (err) {
