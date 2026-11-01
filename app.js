@@ -652,7 +652,6 @@ function renderSongList(songs) {
             document.querySelectorAll(".song-item").forEach(el => el.classList.remove("active"));
             item.classList.add("active");
             selectSong(song, { chartIndex: 0, scrollIntoView: false });
-            closeMobileSidebar();
         };
         listContainer.appendChild(item);
     });
