@@ -196,38 +196,25 @@
             color: #0284c7;
             border-color: #0284c7;
         }
-        /* Mobile Segmented View Mode Toggle: [ Chords | Both | Lyrics ] */
+        /* Mobile Rotating View Mode Toggle: Single button rotating Chords -> Lyrics -> Both */
         #mobile-view-toggle {
             display: none;
-        }
-        .segmented-control {
-            display: inline-flex;
-            background: #e4e4e7;
-            border-radius: 7px;
-            padding: 2px;
-            gap: 2px;
-            user-select: none;
-        }
-        .segmented-btn {
-            border: none;
-            background: transparent;
-            padding: 4px 8px;
-            border-radius: 5px;
-            font-size: 0.78rem;
-            font-weight: 500;
-            color: #52525b;
+            background: #f4f4f5;
+            border: 1px solid #d4d4d8;
+            border-radius: 6px;
+            padding: 5px 9px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: #0284c7;
             cursor: pointer;
             line-height: 1.2;
             transition: all 0.15s ease;
+            user-select: none;
+            white-space: nowrap;
         }
-        .segmented-btn:hover {
-            color: #18181b;
-        }
-        .segmented-btn.active {
-            background: #ffffff;
-            color: #0284c7;
-            font-weight: 600;
-            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
+        #mobile-view-toggle:hover {
+            background: #e4e4e7;
+            border-color: #a1a1aa;
         }
         #settings-btn {
             background: transparent;
@@ -739,9 +726,9 @@
             .header-right {
                 gap: 6px;
             }
-            .segmented-btn {
-                padding: 4px 6px;
-                font-size: 0.72rem;
+            #mobile-view-toggle {
+                padding: 4px 7px;
+                font-size: 0.75rem;
             }
         }
     </style>
@@ -785,12 +772,10 @@
                 <span id="env-badge" style="display: none;" title="Development Build">DEV</span>
             </div>
             <div class="header-right">
-                <!-- Mobile/Tablet View Toggle (Chords / Both / Lyrics) -->
-                <div id="mobile-view-toggle" class="segmented-control" role="group" aria-label="Pane display options">
-                    <button type="button" class="segmented-btn" data-mode="chart" title="Show Chords only">Chords</button>
-                    <button type="button" class="segmented-btn active" data-mode="both" title="Show both Chords and Lyrics">Both</button>
-                    <button type="button" class="segmented-btn" data-mode="lyrics" title="Show Lyrics only">Lyrics</button>
-                </div>
+                <!-- Mobile/Tablet View Toggle: Single rotating button -->
+                <button type="button" id="mobile-view-toggle" title="Rotate view: Both / Chords / Lyrics">
+                    <span id="mobile-view-label">Both</span>
+                </button>
                 <a id="feedback-btn" href="#" title="Send corrections, notes, or chart updates" target="_blank">
                     <span>✉ Suggest Edit</span>
                 </a>
@@ -839,6 +824,6 @@
     </div>
 
     <!-- Application Script -->
-    <script src="app.js?v=1.08"></script>
+    <script src="app.js?v=1.09"></script>
 </body>
 </html>

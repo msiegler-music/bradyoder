@@ -91,14 +91,23 @@ function setupSidebarToggle() {
     });
 }
 
-// Setup Mobile Segmented View Mode Toggle: [ Chords | Both | Lyrics ]
+// Setup Mobile Rotating View Mode Toggle: [ Both -> Chords -> Lyrics -> Both ]
 function setupMobileViewToggle() {
-    const toggleContainer = document.getElementById("mobile-view-toggle");
-    if (!toggleContainer) return;
+    const toggleBtn = document.getElementById("mobile-view-toggle");
+    const labelElem = document.getElementById("mobile-view-label");
+    if (!toggleBtn) return;
 
-    const buttons = toggleContainer.querySelectorAll(".segmented-btn");
-    
+    const modes = ["both", "chart", "lyrics"];
+    const modeLabels = {
+        "both": "Both",
+        "chart": "Chords",
+        "lyrics": "Lyrics"
+    };
+
+    let currentMode = "both";
+
     function setMode(mode) {
+        currentMode = mode;
         document.body.classList.remove("mobile-mode-chart", "mobile-mode-lyrics");
         if (mode === "chart") {
             document.body.classList.add("mobile-mode-chart");
@@ -106,34 +115,33 @@ function setupMobileViewToggle() {
             document.body.classList.add("mobile-mode-lyrics");
         }
 
-        buttons.forEach(btn => {
-            if (btn.getAttribute("data-mode") === mode) {
-                btn.classList.add("active");
-            } else {
-                btn.classList.remove("active");
-            }
-        });
+        if (labelElem) {
+            labelElem.innerText = modeLabels[mode] || "Both";
+        }
+        toggleBtn.title = `Current: ${modeLabels[mode]} (Tap to rotate view)`;
 
         try {
             localStorage.setItem("by_mobile_pane_mode", mode);
         } catch (e) {}
     }
 
-    buttons.forEach(btn => {
-        btn.onclick = (e) => {
-            e.stopPropagation();
-            const mode = btn.getAttribute("data-mode");
-            setMode(mode);
-        };
-    });
+    toggleBtn.onclick = (e) => {
+        e.stopPropagation();
+        const nextIdx = (modes.indexOf(currentMode) + 1) % modes.length;
+        setMode(modes[nextIdx]);
+    };
 
     // Restore saved mode preference (default: "both")
     try {
         const savedMode = localStorage.getItem("by_mobile_pane_mode") || "both";
-        if (savedMode === "chart" || savedMode === "lyrics" || savedMode === "both") {
+        if (modes.includes(savedMode)) {
             setMode(savedMode);
+        } else {
+            setMode("both");
         }
-    } catch (e) {}
+    } catch (e) {
+        setMode("both");
+    }
 }
 
 // Setup Settings popover and radio listeners
