@@ -349,11 +349,11 @@ if (window.pdfjsLib) {
 async function initApp() {
     try {
         const [songsRes, albumsRes, chartsRes, lyricsRes, audioRes] = await Promise.all([
-            fetch('songs.csv?v=1.12'),
-            fetch('albums.csv?v=1.12'),
-            fetch('charts.csv?v=1.12').catch(() => null),
-            fetch('lyrics.csv?v=1.12').catch(() => null),
-            fetch('audio.csv?v=1.12').catch(() => null)
+            fetch('songs.csv?v=1.13'),
+            fetch('albums.csv?v=1.13'),
+            fetch('charts.csv?v=1.13').catch(() => null),
+            fetch('lyrics.csv?v=1.13').catch(() => null),
+            fetch('audio.csv?v=1.13').catch(() => null)
         ]);
 
         const songsCsvText = await songsRes.text();
