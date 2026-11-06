@@ -169,6 +169,55 @@ function setupSettingsPopover() {
     });
 
     updateEnvironmentSwitchLink();
+
+    const reloadBtn = document.getElementById("force-reload-btn");
+    if (reloadBtn) {
+        reloadBtn.onclick = async (e) => {
+            e.stopPropagation();
+            reloadBtn.innerText = "⏳";
+            reloadBtn.style.animation = "spin 0.6s linear infinite";
+
+            // 1. Unregister active service workers
+            if (typeof navigator !== "undefined" && "serviceWorker" in navigator) {
+                try {
+                    const registrations = await navigator.serviceWorker.getRegistrations();
+                    await Promise.all(registrations.map(r => r.unregister()));
+                } catch (err) {}
+            }
+
+            // 2. Purge CacheStorage
+            if (typeof window !== "undefined" && "caches" in window) {
+                try {
+                    const keys = await window.caches.keys();
+                    await Promise.all(keys.map(k => window.caches.delete(k)));
+                } catch (err) {}
+            }
+
+            // 3. Clear sessionStorage
+            try {
+                sessionStorage.clear();
+            } catch (err) {}
+
+            // 4. Force browser network re-fetching of shell assets bypassing HTTP cache
+            const cacheBustNonce = Date.now();
+            try {
+                await Promise.all([
+                    fetch(`index.html?_v=${cacheBustNonce}`, { cache: "reload" }).catch(() => null),
+                    fetch(`app.js?v=${APP_BUILD_VERSION}&_v=${cacheBustNonce}`, { cache: "reload" }).catch(() => null)
+                ]);
+            } catch (err) {}
+
+            // 5. Briefly show checkmark confirmation before reloading
+            reloadBtn.style.animation = "none";
+            reloadBtn.innerText = "✓";
+            await new Promise(r => setTimeout(r, 200));
+
+            // 6. Hard navigate with fresh cache-busting timestamp
+            const url = new URL(window.location.href);
+            url.searchParams.set("_v", cacheBustNonce.toString());
+            window.location.href = url.toString();
+        };
+    }
 }
 
 // Dynamically updates the "Switch to Dev" link in Settings, carrying over active song
@@ -361,6 +410,8 @@ window.addEventListener("popstate", () => {
 });
 
 // Configure PDF.js worker
+const APP_BUILD_VERSION = "v1.14";
+
 if (window.pdfjsLib) {
     pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
 }
@@ -368,12 +419,13 @@ if (window.pdfjsLib) {
 // 1. Load and parse normalized datasets on startup, joining on song URL & album_id
 async function initApp() {
     try {
+        const fetchOpts = { cache: "no-cache" };
         const [songsRes, albumsRes, chartsRes, lyricsRes, audioRes] = await Promise.all([
-            fetch('songs.csv?v=1.13'),
-            fetch('albums.csv?v=1.13'),
-            fetch('charts.csv?v=1.13').catch(() => null),
-            fetch('lyrics.csv?v=1.13').catch(() => null),
-            fetch('audio.csv?v=1.13').catch(() => null)
+            fetch(`songs.csv?v=${APP_BUILD_VERSION}`, fetchOpts),
+            fetch(`albums.csv?v=${APP_BUILD_VERSION}`, fetchOpts),
+            fetch(`charts.csv?v=${APP_BUILD_VERSION}`, fetchOpts).catch(() => null),
+            fetch(`lyrics.csv?v=${APP_BUILD_VERSION}`, fetchOpts).catch(() => null),
+            fetch(`audio.csv?v=${APP_BUILD_VERSION}`, fetchOpts).catch(() => null)
         ]);
 
         const songsCsvText = await songsRes.text();
@@ -1111,7 +1163,7 @@ async function fetchChartBuffer(filename) {
 
     for (const path of candidatePaths) {
         try {
-            const res = await fetch(path);
+            const res = await fetch(`${path}?v=${APP_BUILD_VERSION}`, { cache: "no-cache" });
             if (res.ok) {
                 const buffer = await res.arrayBuffer();
                 return { ok: true, buffer, path };

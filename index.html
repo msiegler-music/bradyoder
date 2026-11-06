@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Prevent aggressive browser disk-caching of application shell -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
     <title>Song Chart & Lyrics Viewer v2</title>
     <!-- Mammoth.js for client-side .docx to semantic HTML conversion -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.6.0/mammoth.browser.min.js"></script>
@@ -294,6 +298,35 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
+        }
+        .settings-version-tag {
+            font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+            background: #f4f4f5;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-weight: 600;
+            color: #0284c7;
+            border: 1px solid #e4e4e7;
+            text-decoration: none;
+        }
+        .settings-reload-btn {
+            background: #ffffff;
+            border: 1px solid #d4d4d8;
+            border-radius: 4px;
+            padding: 2px 6px;
+            font-size: 0.8rem;
+            color: #52525b;
+            cursor: pointer;
+            transition: all 0.15s ease;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            line-height: 1;
+        }
+        .settings-reload-btn:hover {
+            background: #f4f4f5;
+            color: #0284c7;
+            border-color: #bae6fd;
         }
         .settings-env-switch-btn {
             font-size: 0.72rem;
@@ -828,6 +861,13 @@
                     </div>
                     <div class="settings-divider"></div>
                     <div class="settings-version-info">
+                        <span>App Version:</span>
+                        <div style="display: flex; align-items: center; gap: 6px;">
+                            <span id="app-version-badge" class="settings-version-tag">v1.14</span>
+                            <button type="button" id="force-reload-btn" class="settings-reload-btn" title="Force reload (clear cache)">🔄</button>
+                        </div>
+                    </div>
+                    <div class="settings-version-info" style="margin-top: 8px;">
                         <span>Environment:</span>
                         <a id="env-switch-link" href="https://msiegler-music.github.io/bradyoder-dev/" class="settings-env-switch-btn" title="Switch to live Development build">Switch to Dev ↗</a>
                     </div>
@@ -862,6 +902,6 @@
     </div>
 
     <!-- Application Script -->
-    <script src="app.js?v=1.13"></script>
+    <script src="app.js?v=1.14"></script>
 </body>
 </html>
