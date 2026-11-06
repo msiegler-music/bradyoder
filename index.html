@@ -283,6 +283,39 @@
             cursor: pointer;
             accent-color: #0284c7;
         }
+        .settings-divider {
+            height: 1px;
+            background: #e4e4e7;
+            margin: 14px 0 10px 0;
+        }
+        .settings-version-info {
+            font-size: 0.75rem;
+            color: #71717a;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .settings-env-switch-btn {
+            font-size: 0.72rem;
+            font-weight: 600;
+            color: #0284c7;
+            text-decoration: none;
+            background: rgba(2, 132, 199, 0.08);
+            border: 1px solid rgba(2, 132, 199, 0.2);
+            padding: 2px 7px;
+            border-radius: 4px;
+            display: inline-flex;
+            align-items: center;
+            gap: 3px;
+            cursor: pointer;
+            transition: all 0.15s ease;
+        }
+        .settings-env-switch-btn:hover {
+            background: rgba(2, 132, 199, 0.15);
+            border-color: #0284c7;
+            color: #0369a1;
+            transform: translateY(-1px);
+        }
         #active-song-title {
             margin: 0;
             font-size: 1.35rem;
@@ -792,6 +825,11 @@
                             <input type="radio" name="stream-pref" value="spotify">
                             <span>Spotify (login for full)</span>
                         </label>
+                    </div>
+                    <div class="settings-divider"></div>
+                    <div class="settings-version-info">
+                        <span>Environment:</span>
+                        <a id="env-switch-link" href="https://msiegler-music.github.io/bradyoder-dev/" class="settings-env-switch-btn" title="Switch to live Development build">Switch to Dev ↗</a>
                     </div>
                 </div>
             </div>

@@ -167,6 +167,26 @@ function setupSettingsPopover() {
             }
         };
     });
+
+    updateEnvironmentSwitchLink();
+}
+
+// Dynamically updates the "Switch to Dev" link in Settings, carrying over active song
+function updateEnvironmentSwitchLink() {
+    const switchLink = document.getElementById("env-switch-link");
+    if (!switchLink) return;
+
+    const devBase = "https://msiegler-music.github.io/bradyoder-dev/";
+    const targetUrl = new URL(devBase);
+
+    if (currentActiveSong) {
+        const slug = getSongSlug(currentActiveSong);
+        if (slug) {
+            targetUrl.searchParams.set("song", slug);
+        }
+    }
+
+    switchLink.href = targetUrl.toString();
 }
 
 // Helper to extract clean slug from a song URL or identifier
@@ -816,6 +836,7 @@ function renderAudio(song, forcedSource = null) {
 function selectSong(song, options = {}) {
     currentActiveSong = song;
     updateActiveSongHighlight();
+    updateEnvironmentSwitchLink();
     const requestedChartIndex = typeof options.chartIndex === "number" ? options.chartIndex : 0;
     currentChartIndex = requestedChartIndex;
 
